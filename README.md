@@ -5,8 +5,9 @@ A Google Colab notebook exploring a Groq-backed assistant for a home bakery and 
 ## Run the notebook
 
 1. Open `agenticAI_Day1.ipynb` in Google Colab.
-2. Add `GROQ_API_KEY` to Colab's Secrets and allow the notebook to access it.
-3. Run the cells from top to bottom. The notebook includes a package installation cell.
+2. For the Groq example, add `GROQ_API_KEY` to Colab Secrets and allow notebook access.
+3. For the Gemini alternative, add `GEMINI_API_KEY` to Colab Secrets and allow notebook access.
+4. Run the relevant cells from top to bottom. Each provider section installs its package.
 
 Keep API keys in Colab Secrets or environment variables. Do not commit credentials to GitHub.
 
@@ -14,6 +15,7 @@ Keep API keys in Colab Secrets or environment variables. Do not commit credentia
 
 - A bakery support assistant built with LangChain and Groq.
 - A prompt-guard model example.
+- An alternative bakery assistant using the Gemini API (`google-genai`).
 
 ## Academic use
 
